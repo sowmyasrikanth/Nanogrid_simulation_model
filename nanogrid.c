@@ -157,9 +157,8 @@ int main(int argc, char *argv[])
     }
     
     //Set the minimum local price value to 1 cent
-    if (sellPrice < 0.10)
+    if(sellPrice < 0.01)
     {
-      if(sellPrice < 0.01)
       sellPrice = 0.01;
       cBuyPrice = sellPrice;
     }
