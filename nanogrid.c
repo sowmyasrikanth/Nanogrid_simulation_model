@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
   
   if (OUTPUT_STATS == 1)
   {
-    //printf("------------------------------------------------------------------------------------ \n");
+    printf("------------------------------------------------------------------------------------ \n");
     printf("Load,Second,source,battery,price,fulldemand,reduceddemand,excess,unmet\n"); 
   }
   
